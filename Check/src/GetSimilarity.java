@@ -4,9 +4,13 @@ import java.util.Set;
 
 public class GetSimilarity {
     public double getSimilarity(String Str1,String Str2){
-        int Length1 = Str1.length();
-        int Length2 = Str2.length();//编辑操作包括将一个字符替换成另一个字符，插入一个字符，删除一个字符
-        int editDistance = getEditDistance(Str1,Str2,Length1,Length2);//获得最小编辑距离
+        //int Length1 = Str1.length();
+        //int Length2 = Str2.length();//编辑操作包括将一个字符替换成另一个字符，插入一个字符，删除一个字符
+        String Str1_1=new StringFilter().stringFilter(Str1);
+        String Str2_1=new StringFilter().stringFilter(Str2);
+        int Length1 = Str1_1.length();
+        int Length2 = Str2_1.length();//编辑操作包括将一个字符替换成另一个字符，插入一个字符，删除一个字符
+        int editDistance = getEditDistance(Str1_1,Str2_1,Length1,Length2);//获得最小编辑距离
         double s=1-1.0*editDistance/Math.max(Length1,Length2);//求得相似度
         return  s;
 

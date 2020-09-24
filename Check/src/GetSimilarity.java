@@ -29,7 +29,6 @@ public class GetSimilarity {
                 number++;
             }
 
-
             char[] Str1_CharArray=str1.toCharArray();
             char[] Str2_CharArray=str2.toCharArray();
             for (int i = 1; i <= L1; i++) {
@@ -40,7 +39,6 @@ public class GetSimilarity {
                     else{
                         Distance=1;
                     }
-
                     int Temp1=DistanceList[i-1][j]+1;//增
                     int Temp2=DistanceList[i][j-1]+1;//减
                     int Temp3=DistanceList[i-1][j-1]+Distance;//改

@@ -3,12 +3,12 @@ import java.io.*;
 public class main {
     public static void main(String[] args) throws IOException {
 
-        File fileOrig=new File("src/orig.txt");
-        File fileOrig_8_add=new File("src/orig_0.8_add.txt");
-        File fileOrig_8_del=new File("src/orig_0.8_del.txt");
-        File fileOrig_8_dis_1=new File("src/orig_0.8_dis_1.txt");
-        File fileOrig_8_dis_10=new File("src/orig_0.8_dis_10.txt");
-        File fileOrig_8_dis_15=new File("src/orig_0.8_dis_15.txt");
+        File fileOrig=new File(args[0]);//"src/orig.txt"
+        File fileOrig_8_add=new File(args[1]);//"src/orig_0.8_add.txt"
+        File fileOrig_8_del=new File(args[2]);//"src/orig_0.8_del.txt"
+        File fileOrig_8_dis_1=new File(args[3]);//"src/orig_0.8_dis_1.txt"
+        File fileOrig_8_dis_10=new File(args[4]);//"src/orig_0.8_dis_10.txt"
+        File fileOrig_8_dis_15=new File(args[5]);//"src/orig_0.8_dis_15.txt"
         File file1=new File("src/result12.txt");
         File file2=new File("src/result23.txt");
         File file3=new File("src/result34.txt");

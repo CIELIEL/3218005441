@@ -3,8 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="01e307aa-ff74-433e-b56e-395ca075d5db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Check/GetSimilarity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Check/GetSimilarity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GetSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetSimilarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Check.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Check.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Check/CheckSimilarity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Check/GetSimilarity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Check/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Check/result12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Check/result12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Check/result23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Check/result23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Check/result34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Check/result34.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Check/result45.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Check/result45.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Check/result56.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Check/result56.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/CheckSimilarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GetSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/GetSimilarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/result12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/result12.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/result23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/result23.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/result34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/result34.txt" afterDir="false" />
@@ -20,6 +31,27 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Check$main.ic" NAME="main Coverage Results" MODIFIED="1600877790950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Check$CheckSimilarityTest_checkSimilarity_Empty.ic" NAME="CheckSimilarityTest.checkSimilarity_Empty Coverage Results" MODIFIED="1600959603866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Check$CheckSimilarityTest_checkSimilarity_Same.ic" NAME="CheckSimilarityTest.checkSimilarity_Same Coverage Results" MODIFIED="1600959672529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Check$CheckSimilarityTest_checkSimilarity_Add.ic" NAME="CheckSimilarityTest.checkSimilarity_Add Coverage Results" MODIFIED="1600959699773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Check$CheckSimilarityTest.ic" NAME="CheckSimilarityTest Coverage Results" MODIFIED="1600959547220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Check$test_in_Check.ic" NAME="test in Check Coverage Results" MODIFIED="1600961540416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Check$CheckSimilarityTest_checkSimilarity_Non_Existent.ic" NAME="CheckSimilarityTest.checkSimilarity_Non_Existent Coverage Results" MODIFIED="1600959644484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="530" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1191805599">
@@ -62,7 +94,7 @@
     <session id="577355732">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
@@ -71,80 +103,120 @@
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="670" />
+          <entry key="java" value="1424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="670" />
+          <entry key="JAVA" value="1424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="CheckSimilarity" value="2" />
+          <entry key="GetSimilarity" value="1" />
+          <entry key="MODULES/mdl-Check" value="1" />
           <entry key="class" value="1" />
-          <entry key="java" value="2" />
+          <entry key="empty" value="1" />
+          <entry key="java" value="7" />
           <entry key="result23" value="1" />
           <entry key="result34" value="1" />
-          <entry key="txt" value="3" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="2" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="JAVA" value="7" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="UML" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/GetSimilarity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/StringFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/result12.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/CheckSimilarity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="16" selection-start-line="17" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GetSimilarity.java">
+        <entry file="file://$PROJECT_DIR$/src/test/CheckSimilarityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StringFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/orig_0.8_dis_1.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/orig.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="380">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CheckSimilarity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/orig_0.8_add.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="true" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.java">
+        <entry file="file://$PROJECT_DIR$/src/Service/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="76">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -155,6 +227,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -173,8 +246,15 @@
         <option value="$PROJECT_DIR$/src/check.java" />
         <option value="$PROJECT_DIR$/src/CheckSimilarity.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
+        <option value="$PROJECT_DIR$/src/CheckSimilarityTest.java" />
+        <option value="$PROJECT_DIR$/src/GetSimilarityTest.java" />
         <option value="$PROJECT_DIR$/src/StringFilter.java" />
         <option value="$PROJECT_DIR$/src/GetSimilarity.java" />
+        <option value="$PROJECT_DIR$/src/Service/CheckSimilarityTest.java" />
+        <option value="$PROJECT_DIR$/src/test/CheckSimilarityTest.java" />
+        <option value="$PROJECT_DIR$/src/Service/main.java" />
+        <option value="$PROJECT_DIR$/src/Service/CheckSimilarity.java" />
+        <option value="$PROJECT_DIR$/src/Service/GetSimilarity.java" />
       </list>
     </option>
   </component>
@@ -196,7 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -212,28 +291,87 @@
             </path>
             <path>
               <item name="Check" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Check" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Check" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Check" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Check" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="Check" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="Check" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="Check" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="Check" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="extractors" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="Check" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="schema" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="JProf&#9;PSI&#9;JAVA://sun.plugin2.main.server.JVMManager#userJPIProfile&#10;JP&#9;PSI&#9;JAVA://javax.swing.JPanel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600939492662" />
-    <property name="last_opened_file_path" value="D:/jprofiler/jprofiler11/bin/jprofiler.exe" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600968366297" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Service" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\clone\Check\src" />
       <recent name="D:\Check\src" />
@@ -251,15 +389,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.main">
     <configuration name="main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" value="Service.main" />
       <module name="Check" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;src/orig.txt&quot; &quot;src/orig_0.8_add.txt&quot; &quot;src/orig_0.8_del.txt&quot; &quot;src/orig_0.8_dis_1.txt&quot; &quot;src/orig_0.8_dis_10.txt&quot; &quot;src/orig_0.8_dis_15.txt&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;D:\test1\orig.txt&quot; &quot;D:\test1\orig_0.8_add.txt&quot; &quot;D:\test1\orig_0.8_del.txt&quot; &quot;D:\test1\orig_0.8_dis_1.txt&quot; &quot;D:\test1\orig_0.8_dis_10.txt&quot; &quot;D:\test1\orig_0.8_dis_15.txt&quot; &quot;D:\test1\result12.txt&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckSimilarityTest.checkSimilarity_Add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CheckSimilarityTest" />
+      <option name="METHOD_NAME" value="checkSimilarity_Add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckSimilarityTest.checkSimilarity_Empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Check" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CheckSimilarityTest" />
+      <option name="METHOD_NAME" value="checkSimilarity_Empty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckSimilarityTest.checkSimilarity_Non_Existent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CheckSimilarityTest" />
+      <option name="METHOD_NAME" value="checkSimilarity_Non_Existent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckSimilarityTest.checkSimilarity_Same" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CheckSimilarityTest" />
+      <option name="METHOD_NAME" value="checkSimilarity_Same" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test in Check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.main" />
+      <item itemvalue="JUnit.CheckSimilarityTest.checkSimilarity_Empty" />
+      <item itemvalue="JUnit.CheckSimilarityTest.checkSimilarity_Add" />
+      <item itemvalue="JUnit.CheckSimilarityTest.checkSimilarity_Non_Existent" />
+      <item itemvalue="JUnit.CheckSimilarityTest.checkSimilarity_Same" />
+      <item itemvalue="JUnit.test in Check" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test in Check" />
+        <item itemvalue="JUnit.CheckSimilarityTest.checkSimilarity_Add" />
+        <item itemvalue="JUnit.CheckSimilarityTest.checkSimilarity_Same" />
+        <item itemvalue="JUnit.CheckSimilarityTest.checkSimilarity_Non_Existent" />
+        <item itemvalue="JUnit.CheckSimilarityTest.checkSimilarity_Empty" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -296,12 +530,46 @@
       <workItem from="1600915734713" duration="88000" />
       <workItem from="1600915847135" duration="3542000" />
       <workItem from="1600920254256" duration="1099000" />
-      <workItem from="1600938685763" duration="807000" />
+      <workItem from="1600938685763" duration="2599000" />
+      <workItem from="1600941419391" duration="14329000" />
+      <workItem from="1600962740663" duration="4812000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CheckSimilarityTest - 2020.09.24 at 22h 59m 19s.xml">
+      <configuration name="CheckSimilarityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckSimilarityTest_checkSimilarity_Empty - 2020.09.24 at 23h 00m 09s.xml">
+      <configuration name="CheckSimilarityTest.checkSimilarity_Empty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckSimilarityTest_checkSimilarity_Non_Existent - 2020.09.24 at 23h 00m 50s.xml">
+      <configuration name="CheckSimilarityTest.checkSimilarity_Non_Existent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckSimilarityTest_checkSimilarity_Same - 2020.09.24 at 23h 01m 18s.xml">
+      <configuration name="CheckSimilarityTest.checkSimilarity_Same" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckSimilarityTest_checkSimilarity_Add - 2020.09.24 at 23h 01m 46s.xml">
+      <configuration name="CheckSimilarityTest.checkSimilarity_Add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_in_Check - 2020.09.24 at 23h 32m 33s.xml">
+      <configuration name="test in Check" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_in_Check - 2020.09.24 at 23h 38m 30s.xml">
+      <configuration name="test in Check" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_in_Check - 2020.09.24 at 23h 51m 02s.xml">
+      <configuration name="test in Check" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_in_Check - 2020.09.24 at 23h 53m 07s.xml">
+      <configuration name="test in Check" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_in_Check - 2020.09.25 at 00h 49m 50s.xml">
+      <configuration name="test in Check" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44151000" />
+    <option name="totallyTimeSpent" value="65084000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,8 +582,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15602264" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23120452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,8 +592,40 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22241993" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32740214" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48398575" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3291815" />
+      <window_info anchor="bottom" id="JProfiler" order="12" weight="0.588968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.6831043" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22958772" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32740214" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27224198" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,7 +635,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="JProfiler" order="12" weight="0.6174377" />
+      <window_info anchor="bottom" id="JProfiler" order="12" weight="0.15302491" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -345,7 +646,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32983023" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -353,33 +654,33 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/CheckSimilarityTest.java</url>
+          <line>30</line>
+          <properties class="test.CheckSimilarityTest" method="checkSimilarity_Empty">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Service/StringFilter.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/orig_0.8_dis_1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/orig_0.8_del.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test" />
-    <entry file="file://$PROJECT_DIR$/src/orig_0.8_add.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/orig.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/result23" />
     <entry file="file://$PROJECT_DIR$/src/result34" />
-    <entry file="file://$PROJECT_DIR$/src/result12.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/result23.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -400,37 +701,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheckSimilarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+    <entry file="file://$PROJECT_DIR$/src/test/GetSimilarityTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/empty">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://JAVA/Service.CheckSimilarity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Service.CheckSimilarity</OriginalElement>
+          <nodes>
+            <node x="" y="">Service.CheckSimilarity</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="27.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringFilter.java">
+    <entry file="uml://MODULES/mdl-Check">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-Check</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-Check</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="61.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Service.GetSimilarity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Service.GetSimilarity</OriginalElement>
+          <nodes>
+            <node x="" y="">Service.GetSimilarity</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="61.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/result12.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/orig_0.8_dis_1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/orig.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/orig_0.8_add.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/StringFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
+    <entry file="file://$PROJECT_DIR$/src/Service/CheckSimilarity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="380">
+          <caret line="20" column="16" selection-start-line="17" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GetSimilarity.java">
+    <entry file="file://$PROJECT_DIR$/src/Service/GetSimilarity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/CheckSimilarityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -440,10 +828,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Check:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

@@ -15,7 +15,7 @@ public class CreatSubjects {
                 BinaryTree bTree;
                 bTree = new BinaryTree(2);
                 bTree.createBTree();
-                System.out.println(bTree.getRoot().getLchild());
+                //System.out.println(bTree.getRoot().getLchild());
 
 
                 try {

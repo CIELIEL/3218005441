@@ -9,6 +9,9 @@ import java.util.ArrayList;
 
     public class BinaryTree {
 
+        public ArrayList<TreeNode> getOpeList() {
+            return opeList;
+        }
 
         private TreeNode root;
         private int num;

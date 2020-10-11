@@ -5,12 +5,6 @@ import java.io.*;
 import java.util.ArrayList;
 
 
-    /**
-     *
-     * @author kuku713
-     * @version 1.0
-     *
-     */
 
 
     public class BinaryTree {
@@ -85,10 +79,12 @@ import java.util.ArrayList;
         public void createBTree() {
             TreeNode lchild, rchild, lnode, rnode;
             String check;
+
+
            do {
                if (num == 1) {
-                   lchild = new TreeNode(String.valueOf(Ran.getNumber(10)), null, null);
-                   rchild = new TreeNode(String.valueOf(Ran.getNumber(10)), null, null);
+                   lchild = new TreeNode(String.valueOf(Ran.getNumber(100)), null, null);
+                   rchild = new TreeNode(String.valueOf(Ran.getNumber(100)), null, null);
                    root = new TreeNode(String.valueOf(Ran.getOperator()), lchild, rchild);
                } else {
                    int num1 = 0;
@@ -113,9 +109,9 @@ import java.util.ArrayList;
 
                    for (int i = 0; i < place.length; i++) {
                        if (place[i]) {
-                           int a1 = Ran.getNumber(10);
-                           lnode = new TreeNode(String.valueOf(Ran.getNumber(10)), null, null);
-                           rnode = new TreeNode(String.valueOf(Ran.getNumber(10)), null, null);
+                           int a1 = Ran.getNumber(100);
+                           lnode = new TreeNode(String.valueOf(Ran.getNumber(100)), null, null);
+                           rnode = new TreeNode(String.valueOf(Ran.getNumber(100)), null, null);
                            if (i % 2 == 0) {
                                lchild = new TreeNode(String.valueOf(Ran.getOperator()), lnode, rnode);
                                opeList.add(lchild);
@@ -127,11 +123,11 @@ import java.util.ArrayList;
                            }
                        } else {
                            if (i % 2 == 0) {
-                               lchild = new TreeNode(String.valueOf(Ran.getNumber(10)), null, null);
+                               lchild = new TreeNode(String.valueOf(Ran.getNumber(100)), null, null);
                                opeList.get(num1).setLchild(lchild);
                            } else {
 
-                               rchild = new TreeNode(String.valueOf(Ran.getNumber(10)), null, null);
+                               rchild = new TreeNode(String.valueOf(Ran.getNumber(100)), null, null);
                                opeList.get(num1).setRchild(rchild);
                            }
                        }
@@ -147,8 +143,8 @@ import java.util.ArrayList;
                    //rootSave.saveRoot(rootString);
                    //binaryTreesList.add(this);
                }
-               check=deleteCharString0(root.toString(),')','(');
-           }while (DuplicateCheck.checkDuplicate(check,BinaryList.saveList));
+              //check=deleteCharString0(root.toString(),')','(');
+           }while (DuplicateCheck.checkDuplicate(root.toString(),BinaryList.saveList)||root.getLchild()==null||root.getRchild()==null);
             BinaryList.saveBinary(deleteCharString0(root.toString(),')','('));
 /*
             if (num == 1) {

@@ -2,10 +2,6 @@ package Bean;
 
 import java.util.ArrayList;
 
-/**
- * @author kuku713
- * @version 1.0
- */
 
 
 public class TreeNode {
@@ -17,7 +13,7 @@ public class TreeNode {
     public TreeNode() {
     }
 
-    ;
+
 
     public TreeNode(String str) {
         this.str = str;
@@ -67,6 +63,7 @@ public class TreeNode {
         if (hasChild()) {
             switch (str) {
                 case "+":
+
                     //左右子树如果有孩子，说明右子树是一个表达式，而不是数字节点。
                     if (getRchild().hasChild() || getLchild().hasChild()) {
 
@@ -116,6 +113,8 @@ public class TreeNode {
 
 
                 case "-":
+
+
 
                     //左右子树如果有孩子，说明右子树是一个表达式，而不是数字节点。
                     if (getRchild().hasChild() || getLchild().hasChild()) {
@@ -227,6 +226,7 @@ public class TreeNode {
 
                 case "*":
 
+                  
                     //左右子树如果有孩子，说明右子树是一个表达式，而不是数字节点。
                     if (getRchild().hasChild() || getLchild().hasChild()) {
                         //判断左右邻括号的运算符是否为'/'
@@ -275,8 +275,8 @@ public class TreeNode {
 
                 case "/":
                     if (getRchild().getResult(arrayList).equals("0")) {
-                        while (str.equals("/")) {
-                            str = String.valueOf(Ran.getOperator());
+                        while (this.str.equals("/")) {
+                            this.str = String.valueOf(Ran.getOperator());
                             System.out.println(str);
                         }
                         return this.getResult(arrayList);

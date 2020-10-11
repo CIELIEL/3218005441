@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public class main {
     public static void main(String[] args){
         //BinaryTree binaryTree=new BinaryTree(2);
-        //binaryTree.createBTree(10,1);
+        //binaryTree.createBTree(10000,1);
 
         CreatSubjects creatSubjects=new CreatSubjects();
-        creatSubjects.creatSubject(10,1);
+        creatSubjects.creatSubject(10000,1);
 
 //System.out.println("-2".indexOf(0));
         //BinaryTree binaryTree= (BinaryTree) BinaryList.saveList.get(0);

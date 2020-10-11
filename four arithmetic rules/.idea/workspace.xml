@@ -18,8 +18,9 @@
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -27,26 +28,26 @@
           <entry key="Answers" value="1" />
           <entry key="iml" value="2" />
           <entry key="java" value="51" />
-          <entry key="txt" value="30" />
+          <entry key="txt" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="51" />
-          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="java" value="2989" />
+          <entry key="java" value="3168" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2989" />
+          <entry key="JAVA" value="3168" />
           <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
@@ -57,24 +58,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bean/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="236" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="236" />
+            <state relative-caret-position="214">
+              <caret line="146" column="64" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Answers.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2613">
-              <caret line="218" column="3" lean-forward="true" selection-start-line="218" selection-start-column="3" selection-end-line="218" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -82,8 +70,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bean/FractionCal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2337">
-              <caret line="123" selection-start-line="123" selection-end-line="123" />
+            <state relative-caret-position="57">
+              <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exam.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-729591">
+              <caret line="654" selection-start-line="654" selection-end-line="654" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Answers.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113563">
+              <caret line="39035" column="7" lean-forward="true" selection-start-line="39035" selection-start-column="7" selection-end-line="39035" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -91,17 +97,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bean/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="175">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Bean/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-465">
-              <caret line="149" column="49" lean-forward="true" selection-start-line="149" selection-start-column="49" selection-end-line="149" selection-end-column="49" />
+            <state relative-caret-position="190">
+              <caret line="277" column="48" selection-start-line="277" selection-start-column="48" selection-end-line="277" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -109,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bean/FractionStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="19">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
               <folding>
                 <element signature="e#191#192#0" expanded="true" />
                 <element signature="e#223#224#0" expanded="true" />
@@ -130,26 +136,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bean/BinaryList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="11" />
+            <state relative-caret-position="95">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exam.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2632">
-              <caret line="222" column="3" selection-start-line="222" selection-start-column="3" selection-end-line="222" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Bean/DuplicateCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+            <state relative-caret-position="342">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -157,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bean/CreatSubjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="190">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -184,12 +181,12 @@
         <option value="$PROJECT_DIR$/src/Bean/Args.java" />
         <option value="$PROJECT_DIR$/src/Bean/BinaryList.java" />
         <option value="$PROJECT_DIR$/src/Bean/DuplicateCheck.java" />
+        <option value="$PROJECT_DIR$/src/Bean/FractionStack.java" />
         <option value="$PROJECT_DIR$/src/Bean/main.java" />
         <option value="$PROJECT_DIR$/src/Bean/CreatSubjects.java" />
-        <option value="$PROJECT_DIR$/src/Bean/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/Bean/FractionCal.java" />
-        <option value="$PROJECT_DIR$/src/Bean/FractionStack.java" />
         <option value="$PROJECT_DIR$/src/Bean/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/Bean/FractionCal.java" />
+        <option value="$PROJECT_DIR$/src/Bean/TreeNode.java" />
       </list>
     </option>
   </component>
@@ -230,8 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,12 +254,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602386001829" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602396822276" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
@@ -316,18 +313,19 @@
       <workItem from="1602145550101" duration="6502000" />
       <workItem from="1602159838312" duration="1704000" />
       <workItem from="1602230866812" duration="23285000" />
-      <workItem from="1602322680086" duration="22056000" />
+      <workItem from="1602322680086" duration="24520000" />
+      <workItem from="1602393795943" duration="3008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64299000" />
+    <option name="totallyTimeSpent" value="69771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19401778" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.130962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,7 +337,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4995958" visible="true" weight="0.19538188" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.4995958" visible="true" weight="0.030195381" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
@@ -358,7 +356,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19401778" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19725141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,7 +368,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4995958" visible="true" weight="0.19538188" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.4995958" visible="true" weight="0.1616341" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
@@ -420,13 +418,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/RootSave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bean/RootSave.java" />
     <entry file="file://$PROJECT_DIR$/src/Bean/Ran.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -437,38 +429,10 @@
     <entry file="file://$PROJECT_DIR$/four arithmetic rules.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/CreatSubjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
-          <caret line="149" column="49" lean-forward="true" selection-start-line="149" selection-start-column="49" selection-end-line="149" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/FractionCal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2337">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bean/FractionStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="19">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding>
             <element signature="e#191#192#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
@@ -484,45 +448,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/BinaryList.java">
+    <entry file="file://$PROJECT_DIR$/src/Bean/DuplicateCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="11" />
+        <state relative-caret-position="342">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Answers.txt">
+    <entry file="file://$PROJECT_DIR$/src/Bean/CreatSubjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2613">
-          <caret line="218" column="3" lean-forward="true" selection-start-line="218" selection-start-column="3" selection-end-line="218" selection-end-column="3" />
+        <state relative-caret-position="190">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bean/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bean/BinaryList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exam.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2632">
-          <caret line="222" column="3" selection-start-line="222" selection-start-column="3" selection-end-line="222" selection-end-column="9" />
+        <state relative-caret-position="-729591">
+          <caret line="654" selection-start-line="654" selection-end-line="654" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Answers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113563">
+          <caret line="39035" column="7" lean-forward="true" selection-start-line="39035" selection-start-column="7" selection-end-line="39035" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bean/FractionCal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bean/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="236" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="236" />
+        <state relative-caret-position="214">
+          <caret line="146" column="64" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/DuplicateCheck.java">
+    <entry file="file://$PROJECT_DIR$/src/Bean/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        <state relative-caret-position="190">
+          <caret line="277" column="48" selection-start-line="277" selection-start-column="48" selection-end-line="277" selection-end-column="49" />
         </state>
       </provider>
     </entry>

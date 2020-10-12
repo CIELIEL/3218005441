@@ -6,9 +6,15 @@ public class main {
     public static void main(String[] args){
         //BinaryTree binaryTree=new BinaryTree(2);
         //binaryTree.createBTree(10000,1);
-
+        System.out.println("---------四则运算----------");
+        System.out.println("请选择操作");
+        System.out.println("1.生成题目");
+        System.out.println("2.进行批改");
+        System.out.println("3.退出");
         CreatSubjects creatSubjects=new CreatSubjects();
-        creatSubjects.creatSubject(10000,1);
+        int count= Integer.parseInt(args[0]);
+        int num= Integer.parseInt(args[1]);
+        creatSubjects.creatSubject(count,num);
 
 //System.out.println("-2".indexOf(0));
         //BinaryTree binaryTree= (BinaryTree) BinaryList.saveList.get(0);

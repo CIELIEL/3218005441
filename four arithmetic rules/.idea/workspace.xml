@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="fourArithmetic" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d99f546f-d95d-49f2-a063-24ffbce5ce6c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,15 +18,16 @@
     <session id="1499270075">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -29,74 +35,60 @@
           <entry key="Answers" value="1" />
           <entry key="groovy" value="5" />
           <entry key="iml" value="2" />
-          <entry key="java" value="64" />
-          <entry key="txt" value="33" />
+          <entry key="java" value="65" />
+          <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="5" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="64" />
-          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="JAVA" value="65" />
+          <entry key="PLAIN_TEXT" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
           <entry key="groovy" value="1" />
-          <entry key="java" value="3692" />
-          <entry key="txt" value="1" />
+          <entry key="java" value="3741" />
+          <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="3692" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="JAVA" value="3741" />
+          <entry key="PLAIN_TEXT" value="40" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Bean/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exam.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Bean/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
-              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/TreeNodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
               <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exam.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Answers.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -143,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/DuplicateCheckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="342">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,9 +145,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bean/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bean/DuplicateCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="285">
               <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="70" />
             </state>
           </provider>
@@ -164,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bean/CreatSubjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            <state relative-caret-position="209">
+              <caret line="11" column="35" selection-start-line="7" selection-start-column="8" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -187,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/Service/BinaryTreeService.java" />
         <option value="$PROJECT_DIR$/src/Service/TreeNodeService.java" />
         <option value="$PROJECT_DIR$/src/Bean/Ran.java" />
-        <option value="$PROJECT_DIR$/src/Exam.txt" />
         <option value="$PROJECT_DIR$/src/Bean/args.java" />
         <option value="$PROJECT_DIR$/src/Bean/RootSave.java" />
         <option value="$PROJECT_DIR$/src/Bean/Args.java" />
@@ -196,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/Bean/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/Bean/FractionCal.java" />
         <option value="$PROJECT_DIR$/src/Bean/BinaryList.java" />
-        <option value="$PROJECT_DIR$/src/Bean/main.java" />
         <option value="$PROJECT_DIR$/src/Bean/CreatSubjectsTest.groovy" />
         <option value="$PROJECT_DIR$/src/Bean/DuplicateCheckTest.groovy" />
         <option value="$PROJECT_DIR$/src/Bean/CreatSubjectsTest.java" />
@@ -206,6 +205,9 @@
         <option value="$PROJECT_DIR$/src/Bean/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/Bean/CreatSubjects.java" />
         <option value="$PROJECT_DIR$/src/Test/TreeNodeTest.java" />
+        <option value="$PROJECT_DIR$/src/Bean/main.java" />
+        <option value="$PROJECT_DIR$/src/Answers.txt" />
+        <option value="$PROJECT_DIR$/src/Exam.txt" />
       </list>
     </option>
   </component>
@@ -215,7 +217,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="360" />
     <option name="y" value="63" />
     <option name="width" value="1428" />
@@ -261,6 +263,24 @@
             <path>
               <item name="four arithmetic rules" type="b2602c69:ProjectViewProjectNode" />
               <item name="four arithmetic rules" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="four arithmetic rules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="four arithmetic rules" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="four arithmetic rules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="four arithmetic rules" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="fourArithmetic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="four arithmetic rules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="four arithmetic rules" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,6 +294,10 @@
               <item name="four arithmetic rules" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="four arithmetic rules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -289,14 +313,18 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602432771398" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602473700813" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
@@ -320,10 +348,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeNodeTest.getResult">
+  <component name="RunManager" selected="Application.main">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bean.main" />
       <module name="four arithmetic rules" />
+      <option name="PROGRAM_PARAMETERS" value="10 2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.*" />
@@ -356,8 +385,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeNodeTest.getResult" />
         <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.TreeNodeTest.getResult" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +408,8 @@
       <workItem from="1602322680086" duration="24520000" />
       <workItem from="1602393795943" duration="12876000" />
       <workItem from="1602430778746" duration="308000" />
-      <workItem from="1602431851779" duration="915000" />
+      <workItem from="1602431851779" duration="2684000" />
+      <workItem from="1602470171234" duration="1524000" />
     </task>
     <servers />
   </component>
@@ -395,12 +425,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80862000" />
+    <option name="totallyTimeSpent" value="84155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17461601" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17704123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -412,7 +442,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4995958" weight="0.07637656" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4995958" weight="0.08525755" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
@@ -431,7 +461,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16976556" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17461601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -443,7 +473,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4995958" visible="true" weight="0.1598579" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4995958" weight="0.07637656" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
@@ -499,24 +529,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bean/CreatSubjectsTest.groovy" />
     <entry file="file://$PROJECT_DIR$/src/Bean/DuplicateCheckTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/Answers.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380427">
-          <caret line="39035" column="7" selection-start-line="39035" selection-start-column="7" selection-end-line="39035" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bean/FractionCal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2166">
           <caret line="157" column="18" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="44" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -527,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exam.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bean/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
@@ -541,10 +550,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TreeNodeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Bean/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        <state relative-caret-position="342">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -581,17 +595,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/CreatSubjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/DuplicateCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="342">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -600,29 +607,124 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bean/DuplicateCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="285">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/BinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Bean/CreatSubjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="11" column="35" selection-start-line="7" selection-start-column="8" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bean/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TreeNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Answers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exam.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="10" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>fourArithmetic</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>four arithmetic rules</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
